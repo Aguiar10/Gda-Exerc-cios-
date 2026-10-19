@@ -1,0 +1,8 @@
+GDA 11.º · Figuras planas III — app para iPhone/iPad
+
+1) Põe TODOS estes ficheiros na mesma pasta de um site com HTTPS (index.html, manifest.webmanifest, sw.js, icon-180.png, icon-192.png, icon-512.png).
+   Opções gratuitas e simples: Netlify Drop (app.netlify.com/drop: arrastas a pasta), Cloudflare Pages ou GitHub Pages.
+2) No iPhone, abre o endereço no Safari, toca em Partilhar e depois em "Adicionar ao ecrã principal".
+3) A app abre em ecrã inteiro e, depois da primeira abertura com internet, funciona offline.
+Nota: o iOS não instala apps a partir de ficheiros locais; sem alojamento HTTPS o service worker (offline) não funciona.
+Para atualizar: substitui o index.html e muda "gda-v1" em sw.js para "gda-v2".
